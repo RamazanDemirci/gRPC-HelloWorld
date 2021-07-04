@@ -24,8 +24,8 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
-	pb "https://github.com/RamazanDemirci/gRPC-HelloWorld/helloworld"
+	pb "github.com/RamazanDemirci/gRPC-HelloWorld/helloworld"
+	grpc "google.golang.org/grpc"
 )
 
 const (
